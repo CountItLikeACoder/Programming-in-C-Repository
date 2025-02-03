@@ -2,7 +2,7 @@
 #include <string.h>
 
 void main() {
-    char message[141]; // array that can hold 140 characters for the message
+    char message[141]; // array that can hold 141 characters (140 characters + null terminator) for the message
 
     // prompt user to input their message
     printf("Enter your message: ");
