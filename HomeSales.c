@@ -9,7 +9,7 @@ int main() {
 
     // while loop that ends when 'z' or 'Z' is entered
     while (1) {
-        printf("Enter the initial of your salesperson (D, E, or F) or Z to stop: ");
+        printf("\nEnter the initial of your salesperson (D, E, or F) or Z to stop: ");
         scanf(" %c", &initial); 
 
         initial = toupper(initial); // convert to uppercase
@@ -56,7 +56,7 @@ int main() {
                 break;
             default:
                 // Handle invalid initials
-                printf("\nError, invalid salesperson selected, please try again");
+                printf("\nError, invalid salesperson selected, please try again\n");
                 break;
         }
 
